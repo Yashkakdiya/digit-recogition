@@ -1,9 +1,11 @@
+import os
+os.makedirs(".streamlit", exist_ok=True)
+os.environ["STREAMLIT_CONFIG_DIR"] = ".streamlit"
+
 import streamlit as st
 import numpy as np
 import tensorflow as tf
 from PIL import Image, ImageOps
-import os
-
 # Streamlit page config
 st.set_page_config(page_title="Handwritten Digit Recognition", layout="centered")
 
