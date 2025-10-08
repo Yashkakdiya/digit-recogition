@@ -1,4 +1,6 @@
-streamlit==1.26.0
-numpy==1.26.1
-Pillow==10.0.0
-tensorflow==2.13.0
+     # CPU-only, Python 3.13 compatible
+# Streamlit app dependencies
+streamlit==1.27.0       # Python 3.13 compatible
+numpy==1.26.4           # Python 3.13 compatible
+Pillow==10.0.1          # Streamlit compatible
+tensorflow==2.14.0      # Python 3.13 compatible (CPU only)
