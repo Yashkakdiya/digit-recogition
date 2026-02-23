@@ -9,7 +9,7 @@ from PIL import Image, ImageOps
 # Streamlit page config
 st.set_page_config(page_title="Handwritten Digit Recognition", layout="centered")
 
-st.title("🧠 Handwritten Digit Recognition (MNIST)")
+st.title(" Handwritten Digit Recognition (MNIST)")
 st.write("Upload an image of a handwritten digit (0–9). The app expects a grayscale image; colored images are converted automatically.")
 
 # Model path
